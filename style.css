@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif; /*somente a fonte das letras */
+    margin: 20px; /* esse afasta as letras da borda da tela */
+    background-color: aliceblue; /* cor do fundo do site */
+}
+
+form{
+    margin: auto; /* o "auto" centraliza as informações na tela */
+    max-width: 1000px; 
+}
+
+input, textarea{ /* muda o input e textarea */
+    width: 100%;
+    padding: 10px; /*distancia de afastamento entre as linhas*/
+    margin: 8px; /* nesse caso, esse está afastando o rótulo das caixas, delas mesmas */
+    border: 2px solid saddlebrown; /* muda a grossura da borda e o "solid" a sua cor */
+    border-radius: 15px; /* deixa as bordas arredondadas */
+    font-size: 15px;
+}
+
+input:focus, textarea:focus{
+   
+    background-color: aqua; /* vai alterar a cor do fundo da caixa */
+    outline: none; /* vai tirar a borda preta padrão */
+    border-color: blue; /* vai alterar a cor da borda quando eu clicar em uma caixa */
+}
+
+button{
+    background-color: blueviolet;
+    color: bisque;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: brown;
+}
